@@ -29,5 +29,4 @@ first command is the main command and keywords after "-" are called flags. eg : 
 11. Little but of cryptography here. Base64 is just a number system like hexdecimals.. "cat data.txt | base64 --decode"
 
 12. I used rot 13 decrypter online. I will put up a decoder in C and Python just in case. After searching online, I found this command "cat data.txt | tr a-zA-Z n-za-mN-ZA-M" high iq.
-
-13.Inverse hexdump using `xxd` command which is a utility that comes with `vim`, use file to find the type of the archive, several type like bz2, gz and tar, continuosly `bunzip2, gunzip` and `tar xvf` until you get an ASCII text file which you can `cat` to get the password.
+13. Inverse hexdump using `xxd` command which is a utility that comes with `vim`, use file to find the type of the archive, several type like bz2, gz and tar, continuosly `bunzip2, gunzip` and `tar xvf` until you get an ASCII text file which you can `cat` to get the password.
